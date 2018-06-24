@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SevenCloud.Console", "SevenCloud.Console\SevenCloud.Console.csproj", "{2A65DB88-5CC0-4A75-9743-4790B43B6E02}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Console", "2 - Console", "{20AD755C-7FCE-4290-88EA-EB8541DEA3B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Library", "1 - Library", "{FBE0EC4A-A46E-4BC3-8B9A-D68D4E18A614}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SevenCloud.Parser", "SevenCloud.Parser\SevenCloud.Parser.csproj", "{F1C1D862-18C0-492D-8388-94FD0AA9D62F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1 - Parser", "1.1 - Parser", "{A2CF1D28-381B-49F9-8FA1-E5D8706FED1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A65DB88-5CC0-4A75-9743-4790B43B6E02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A65DB88-5CC0-4A75-9743-4790B43B6E02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A65DB88-5CC0-4A75-9743-4790B43B6E02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A65DB88-5CC0-4A75-9743-4790B43B6E02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1C1D862-18C0-492D-8388-94FD0AA9D62F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1C1D862-18C0-492D-8388-94FD0AA9D62F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1C1D862-18C0-492D-8388-94FD0AA9D62F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1C1D862-18C0-492D-8388-94FD0AA9D62F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2A65DB88-5CC0-4A75-9743-4790B43B6E02} = {20AD755C-7FCE-4290-88EA-EB8541DEA3B4}
+		{F1C1D862-18C0-492D-8388-94FD0AA9D62F} = {A2CF1D28-381B-49F9-8FA1-E5D8706FED1B}
+		{A2CF1D28-381B-49F9-8FA1-E5D8706FED1B} = {FBE0EC4A-A46E-4BC3-8B9A-D68D4E18A614}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1784F41D-7C32-40D5-9F12-0E465C370631}
+	EndGlobalSection
+EndGlobal
